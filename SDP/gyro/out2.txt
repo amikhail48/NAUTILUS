@@ -1,0 +1,1318 @@
+Emptying FIFO of 57344 bytes... DONE
+offset: 1.53
+Read:28 bytes
+4096 bytes in FIFO
+5120
+0: 0.19
+0
+1: 0.19
+512
+2: 0.21
+Read:28 bytes
+4096 bytes in FIFO
+5120
+0: 0.39
+0
+1: 0.39
+512
+2: 0.41
+Read:28 bytes
+4096 bytes in FIFO
+5120
+0: 0.60
+0
+1: 0.60
+512
+2: 0.62
+Read:28 bytes
+4096 bytes in FIFO
+5120
+0: 0.81
+0
+1: 0.81
+512
+2: 0.83
+Read:28 bytes
+4096 bytes in FIFO
+5120
+0: 1.01
+0
+1: 1.01
+512
+2: 1.03
+Read:28 bytes
+4096 bytes in FIFO
+5120
+0: 1.22
+0
+1: 1.22
+512
+2: 1.24
+Read:28 bytes
+4096 bytes in FIFO
+5120
+0: 1.43
+0
+1: 1.43
+512
+2: 1.45
+Read:28 bytes
+4096 bytes in FIFO
+5120
+0: 1.63
+0
+1: 1.63
+512
+2: 1.65
+Read:28 bytes
+4096 bytes in FIFO
+5120
+0: 1.84
+0
+1: 1.84
+512
+2: 1.86
+Read:28 bytes
+4096 bytes in FIFO
+5120
+0: 2.05
+0
+1: 2.05
+512
+2: 2.07
+DONE
+x-gy: 2.0658
+x-axis: 2.0658
+y-axis: 0.0000
+Read:28 bytes
+76 bytes in FIFO
+6656
+0: 0.24
+6144
+1: 0.47
+6912
+2: 0.72
+Read:28 bytes
+62 bytes in FIFO
+4673
+0: 0.89
+50687
+1: 0.35
+50687
+2: -0.19
+Read:28 bytes
+54 bytes in FIFO
+44031
+0: -0.98
+54783
+1: -1.38
+55295
+2: -1.75
+Read:28 bytes
+40 bytes in FIFO
+57087
+0: -2.06
+5888
+1: -1.85
+6144
+2: -1.62
+Read:28 bytes
+26 bytes in FIFO
+50431
+0: -2.18
+1089
+1: -2.14
+50175
+2: -2.70
+DONE
+x-gy: -2.6999
+x-axis: -0.6340
+y-axis: 0.0000
+Read:28 bytes
+78 bytes in FIFO
+6400
+0: 0.23
+0
+1: 0.23
+0
+2: 0.23
+Read:28 bytes
+64 bytes in FIFO
+4161
+0: 0.39
+0
+1: 0.39
+0
+2: 0.39
+Read:28 bytes
+53 bytes in FIFO
+46079
+0: -0.33
+0
+1: -0.33
+0
+2: -0.33
+Read:28 bytes
+39 bytes in FIFO
+64767
+0: -0.35
+0
+1: -0.35
+0
+2: -0.35
+Read:28 bytes
+25 bytes in FIFO
+50175
+0: -0.92
+0
+1: -0.92
+0
+2: -0.92
+DONE
+x-gy: -0.9179
+x-axis: -1.5520
+y-axis: 0.0000
+Read:28 bytes
+77 bytes in FIFO
+65475
+0: -0.00
+65477
+1: -0.00
+0
+2: -0.00
+Read:28 bytes
+63 bytes in FIFO
+214
+0: 0.00
+214
+1: 0.01
+0
+2: 0.01
+Read:28 bytes
+52 bytes in FIFO
+65304
+0: 0.00
+65303
+1: -0.01
+0
+2: -0.01
+Read:28 bytes
+38 bytes in FIFO
+65476
+0: -0.01
+65475
+1: -0.01
+0
+2: -0.01
+Read:28 bytes
+24 bytes in FIFO
+213
+0: -0.00
+214
+1: 0.01
+0
+2: 0.01
+DONE
+x-gy: 0.0055
+x-axis: -1.5465
+y-axis: 0.0000
+Read:28 bytes
+76 bytes in FIFO
+6400
+0: 0.23
+6656
+1: 0.48
+6144
+2: 0.70
+Read:28 bytes
+62 bytes in FIFO
+65344
+0: 0.70
+50943
+1: 0.16
+50175
+2: -0.40
+Read:28 bytes
+54 bytes in FIFO
+42495
+0: -1.25
+54783
+1: -1.64
+55551
+2: -2.01
+Read:28 bytes
+40 bytes in FIFO
+60927
+0: -2.18
+5888
+1: -1.96
+5376
+2: -1.76
+Read:28 bytes
+26 bytes in FIFO
+50687
+0: -2.31
+12865
+1: -1.84
+50943
+2: -2.37
+DONE
+x-gy: -2.3712
+x-axis: -3.9178
+y-axis: 0.0000
+Read:28 bytes
+78 bytes in FIFO
+6400
+0: 0.23
+0
+1: 0.23
+0
+2: 0.23
+Read:28 bytes
+64 bytes in FIFO
+1857
+0: 0.30
+0
+1: 0.30
+0
+2: 0.30
+Read:28 bytes
+53 bytes in FIFO
+48127
+0: -0.34
+0
+1: -0.34
+0
+2: -0.34
+Read:28 bytes
+39 bytes in FIFO
+63999
+0: -0.39
+0
+1: -0.39
+0
+2: -0.39
+Read:28 bytes
+25 bytes in FIFO
+50943
+0: -0.93
+0
+1: -0.93
+0
+2: -0.93
+DONE
+x-gy: -0.9273
+x-axis: -4.8451
+y-axis: 0.0000
+Read:28 bytes
+77 bytes in FIFO
+65478
+0: -0.00
+65477
+1: -0.00
+0
+2: -0.00
+Read:28 bytes
+63 bytes in FIFO
+216
+0: 0.00
+215
+1: 0.01
+0
+2: 0.01
+Read:28 bytes
+52 bytes in FIFO
+65305
+0: 0.00
+65305
+1: -0.01
+0
+2: -0.01
+Read:28 bytes
+38 bytes in FIFO
+65478
+0: -0.01
+65477
+1: -0.01
+0
+2: -0.01
+Read:28 bytes
+24 bytes in FIFO
+215
+0: -0.00
+213
+1: 0.01
+0
+2: 0.01
+DONE
+x-gy: 0.0060
+x-axis: -4.8391
+y-axis: 0.0000
+Read:28 bytes
+76 bytes in FIFO
+6144
+0: 0.23
+6400
+1: 0.46
+6144
+2: 0.69
+Read:28 bytes
+62 bytes in FIFO
+7233
+0: 0.95
+50431
+1: 0.40
+50175
+2: -0.17
+Read:28 bytes
+54 bytes in FIFO
+45823
+0: -0.89
+54527
+1: -1.29
+54527
+2: -1.70
+Read:28 bytes
+40 bytes in FIFO
+54015
+0: -2.12
+6400
+1: -1.89
+6144
+2: -1.66
+Read:28 bytes
+26 bytes in FIFO
+50687
+0: -2.20
+65344
+1: -2.21
+50943
+2: -2.75
+DONE
+x-gy: -2.7468
+x-axis: -7.5860
+y-axis: 0.0000
+Read:28 bytes
+78 bytes in FIFO
+5888
+0: 0.22
+0
+1: 0.22
+0
+2: 0.22
+Read:28 bytes
+64 bytes in FIFO
+4161
+0: 0.37
+0
+1: 0.37
+0
+2: 0.37
+Read:28 bytes
+53 bytes in FIFO
+43775
+0: -0.43
+0
+1: -0.43
+0
+2: -0.43
+Read:28 bytes
+39 bytes in FIFO
+52223
+0: -0.92
+0
+1: -0.92
+0
+2: -0.92
+Read:28 bytes
+25 bytes in FIFO
+50431
+0: -1.47
+0
+1: -1.47
+0
+2: -1.47
+DONE
+x-gy: -1.4720
+x-axis: -9.0579
+y-axis: 0.0000
+Read:28 bytes
+77 bytes in FIFO
+65476
+0: -0.00
+65476
+1: -0.00
+0
+2: -0.00
+Read:28 bytes
+63 bytes in FIFO
+215
+0: 0.00
+216
+1: 0.01
+0
+2: 0.01
+Read:28 bytes
+52 bytes in FIFO
+65307
+0: 0.00
+65307
+1: -0.01
+0
+2: -0.01
+Read:28 bytes
+38 bytes in FIFO
+65476
+0: -0.01
+65474
+1: -0.01
+0
+2: -0.01
+Read:28 bytes
+24 bytes in FIFO
+215
+0: -0.00
+215
+1: 0.01
+0
+2: 0.01
+DONE
+x-gy: 0.0059
+x-axis: -9.0520
+y-axis: 0.0000
+Read:28 bytes
+76 bytes in FIFO
+6400
+0: 0.23
+6400
+1: 0.47
+6400
+2: 0.70
+Read:28 bytes
+62 bytes in FIFO
+8513
+0: 1.02
+50175
+1: 0.45
+50687
+2: -0.09
+Read:28 bytes
+54 bytes in FIFO
+48127
+0: -0.73
+55039
+1: -1.12
+54783
+2: -1.51
+Read:28 bytes
+40 bytes in FIFO
+55295
+0: -1.89
+5888
+1: -1.67
+6400
+2: -1.43
+Read:28 bytes
+26 bytes in FIFO
+50431
+0: -1.99
+65
+1: -1.99
+50943
+2: -2.52
+DONE
+x-gy: -2.5214
+x-axis: -11.5735
+y-axis: 0.0000
+Read:28 bytes
+78 bytes in FIFO
+6400
+0: 0.23
+0
+1: 0.23
+0
+2: 0.23
+Read:28 bytes
+64 bytes in FIFO
+4673
+0: 0.41
+0
+1: 0.41
+0
+2: 0.41
+Read:28 bytes
+53 bytes in FIFO
+44799
+0: -0.35
+0
+1: -0.35
+0
+2: -0.35
+Read:28 bytes
+39 bytes in FIFO
+60671
+0: -0.53
+0
+1: -0.53
+0
+2: -0.53
+Read:28 bytes
+25 bytes in FIFO
+50175
+0: -1.10
+0
+1: -1.10
+0
+2: -1.10
+DONE
+x-gy: -1.0964
+x-axis: -12.6698
+y-axis: 0.0000
+Read:28 bytes
+77 bytes in FIFO
+65477
+0: -0.00
+65475
+1: -0.00
+0
+2: -0.00
+Read:28 bytes
+63 bytes in FIFO
+215
+0: 0.00
+213
+1: 0.01
+0
+2: 0.01
+Read:28 bytes
+52 bytes in FIFO
+65302
+0: 0.00
+65305
+1: -0.01
+0
+2: -0.01
+Read:28 bytes
+38 bytes in FIFO
+65475
+0: -0.01
+65476
+1: -0.01
+0
+2: -0.01
+Read:28 bytes
+24 bytes in FIFO
+214
+0: -0.00
+214
+1: 0.01
+0
+2: 0.01
+DONE
+x-gy: 0.0055
+x-axis: -12.6643
+y-axis: 0.0000
+Read:28 bytes
+76 bytes in FIFO
+6400
+0: 0.23
+6144
+1: 0.46
+5888
+2: 0.68
+Read:28 bytes
+62 bytes in FIFO
+4929
+0: 0.86
+50431
+1: 0.30
+51199
+2: -0.22
+Read:28 bytes
+54 bytes in FIFO
+42239
+0: -1.08
+55039
+1: -1.46
+54783
+2: -1.86
+Read:28 bytes
+40 bytes in FIFO
+64767
+0: -1.89
+6144
+1: -1.66
+6400
+2: -1.43
+Read:28 bytes
+26 bytes in FIFO
+51199
+0: -1.95
+5185
+1: -1.76
+50431
+2: -2.31
+DONE
+x-gy: -2.3149
+x-axis: -14.9792
+y-axis: 0.0000
+Read:28 bytes
+78 bytes in FIFO
+6400
+0: 0.23
+0
+1: 0.23
+0
+2: 0.23
+Read:28 bytes
+64 bytes in FIFO
+58432
+0: -0.03
+0
+1: -0.03
+0
+2: -0.03
+Read:28 bytes
+53 bytes in FIFO
+44287
+0: -0.81
+0
+1: -0.81
+0
+2: -0.81
+Read:28 bytes
+39 bytes in FIFO
+768
+0: -0.78
+0
+1: -0.78
+0
+2: -0.78
+Read:28 bytes
+25 bytes in FIFO
+50431
+0: -1.33
+0
+1: -1.33
+0
+2: -1.33
+DONE
+x-gy: -1.3311
+x-axis: -16.3103
+y-axis: 0.0000
+Read:28 bytes
+77 bytes in FIFO
+65477
+0: -0.00
+65477
+1: -0.00
+0
+2: -0.00
+Read:28 bytes
+63 bytes in FIFO
+214
+0: 0.00
+214
+1: 0.01
+0
+2: 0.01
+Read:28 bytes
+52 bytes in FIFO
+65305
+0: 0.00
+65303
+1: -0.01
+0
+2: -0.01
+Read:28 bytes
+38 bytes in FIFO
+65476
+0: -0.01
+65477
+1: -0.01
+0
+2: -0.01
+Read:28 bytes
+24 bytes in FIFO
+216
+0: -0.00
+214
+1: 0.01
+0
+2: 0.01
+DONE
+x-gy: 0.0058
+x-axis: -16.3045
+y-axis: 0.0000
+Read:28 bytes
+76 bytes in FIFO
+6400
+0: 0.23
+6144
+1: 0.46
+6400
+2: 0.69
+Read:28 bytes
+62 bytes in FIFO
+1345
+0: 0.74
+50175
+1: 0.18
+50687
+2: -0.36
+Read:28 bytes
+54 bytes in FIFO
+45823
+0: -1.09
+55295
+1: -1.46
+54527
+2: -1.87
+Read:28 bytes
+40 bytes in FIFO
+60671
+0: -2.04
+6144
+1: -1.82
+6400
+2: -1.58
+Read:28 bytes
+26 bytes in FIFO
+50943
+0: -2.12
+3393
+1: -2.00
+51199
+2: -2.52
+DONE
+x-gy: -2.5214
+x-axis: -18.8260
+y-axis: 0.0000
+Read:28 bytes
+78 bytes in FIFO
+6144
+0: 0.23
+0
+1: 0.23
+0
+2: 0.23
+Read:28 bytes
+64 bytes in FIFO
+4929
+0: 0.41
+0
+1: 0.41
+0
+2: 0.41
+Read:28 bytes
+53 bytes in FIFO
+45311
+0: -0.34
+0
+1: -0.34
+0
+2: -0.34
+Read:28 bytes
+39 bytes in FIFO
+57343
+0: -0.64
+0
+1: -0.64
+0
+2: -0.64
+Read:28 bytes
+25 bytes in FIFO
+50431
+0: -1.19
+0
+1: -1.19
+0
+2: -1.19
+DONE
+x-gy: -1.1903
+x-axis: -20.0162
+y-axis: 0.0000
+Read:28 bytes
+77 bytes in FIFO
+65476
+0: -0.00
+65478
+1: -0.00
+0
+2: -0.00
+Read:28 bytes
+63 bytes in FIFO
+213
+0: 0.00
+213
+1: 0.01
+0
+2: 0.01
+Read:28 bytes
+52 bytes in FIFO
+65306
+0: 0.00
+65305
+1: -0.01
+0
+2: -0.01
+Read:28 bytes
+38 bytes in FIFO
+65474
+0: -0.01
+65476
+1: -0.01
+0
+2: -0.01
+Read:28 bytes
+24 bytes in FIFO
+213
+0: -0.00
+214
+1: 0.01
+0
+2: 0.01
+DONE
+x-gy: 0.0056
+x-axis: -20.0107
+y-axis: 0.0000
+Read:28 bytes
+76 bytes in FIFO
+6400
+0: 0.23
+6400
+1: 0.47
+6144
+2: 0.69
+Read:28 bytes
+62 bytes in FIFO
+1089
+0: 0.73
+50431
+1: 0.18
+51455
+2: -0.34
+Read:28 bytes
+54 bytes in FIFO
+44543
+0: -1.11
+55039
+1: -1.49
+55039
+2: -1.88
+Read:28 bytes
+40 bytes in FIFO
+51199
+0: -2.40
+6400
+1: -2.17
+6144
+2: -1.94
+Read:28 bytes
+26 bytes in FIFO
+50943
+0: -2.48
+7233
+1: -2.21
+50431
+2: -2.77
+DONE
+x-gy: -2.7656
+x-axis: -22.7762
+y-axis: 0.0000
+Read:28 bytes
+78 bytes in FIFO
+6656
+0: 0.24
+0
+1: 0.24
+0
+2: 0.24
+Read:28 bytes
+64 bytes in FIFO
+7489
+0: 0.52
+0
+1: 0.52
+0
+2: 0.52
+Read:28 bytes
+53 bytes in FIFO
+40703
+0: -0.39
+0
+1: -0.39
+0
+2: -0.39
+Read:28 bytes
+39 bytes in FIFO
+61951
+0: -0.52
+0
+1: -0.52
+0
+2: -0.52
+Read:28 bytes
+25 bytes in FIFO
+50687
+0: -1.07
+0
+1: -1.07
+0
+2: -1.07
+DONE
+x-gy: -1.0682
+x-axis: -23.8444
+y-axis: 0.0000
+Read:28 bytes
+77 bytes in FIFO
+65477
+0: -0.00
+65477
+1: -0.00
+0
+2: -0.00
+Read:28 bytes
+63 bytes in FIFO
+214
+0: 0.00
+216
+1: 0.01
+0
+2: 0.01
+Read:28 bytes
+52 bytes in FIFO
+65304
+0: 0.00
+65302
+1: -0.01
+0
+2: -0.01
+Read:28 bytes
+38 bytes in FIFO
+65477
+0: -0.01
+65478
+1: -0.01
+0
+2: -0.01
+Read:28 bytes
+24 bytes in FIFO
+216
+0: -0.00
+215
+1: 0.01
+0
+2: 0.01
+DONE
+x-gy: 0.0059
+x-axis: -23.8386
+y-axis: 0.0000
+Read:28 bytes
+76 bytes in FIFO
+6400
+0: 0.23
+5632
+1: 0.44
+6144
+2: 0.67
+Read:28 bytes
+62 bytes in FIFO
+65088
+0: 0.65
+49919
+1: 0.08
+50175
+2: -0.49
+Read:28 bytes
+54 bytes in FIFO
+45823
+0: -1.21
+54527
+1: -1.61
+55551
+2: -1.98
+Read:28 bytes
+40 bytes in FIFO
+64767
+0: -2.01
+6144
+1: -1.78
+6912
+2: -1.53
+Read:28 bytes
+26 bytes in FIFO
+51199
+0: -2.05
+6977
+1: -1.80
+50431
+2: -2.35
+DONE
+x-gy: -2.3525
+x-axis: -26.1910
+y-axis: 0.0000
+Read:28 bytes
+78 bytes in FIFO
+6144
+0: 0.23
+0
+1: 0.23
+0
+2: 0.23
+Read:28 bytes
+64 bytes in FIFO
+2113
+0: 0.30
+0
+1: 0.30
+0
+2: 0.30
+Read:28 bytes
+53 bytes in FIFO
+45311
+0: -0.44
+0
+1: -0.44
+0
+2: -0.44
+Read:28 bytes
+39 bytes in FIFO
+63743
+0: -0.50
+0
+1: -0.50
+0
+2: -0.50
+Read:28 bytes
+25 bytes in FIFO
+49407
+0: -1.10
+0
+1: -1.10
+0
+2: -1.10
+DONE
+x-gy: -1.0964
+x-axis: -27.2874
+y-axis: 0.0000
+Read:28 bytes
+77 bytes in FIFO
+65476
+0: -0.00
+65476
+1: -0.00
+0
+2: -0.00
+Read:28 bytes
+63 bytes in FIFO
+211
+0: 0.00
+214
+1: 0.01
+0
+2: 0.01
+Read:28 bytes
+52 bytes in FIFO
+65305
+0: 0.00
+65304
+1: -0.01
+0
+2: -0.01
+Read:28 bytes
+38 bytes in FIFO
+65477
+0: -0.01
+65476
+1: -0.01
+0
+2: -0.01
+Read:28 bytes
+24 bytes in FIFO
+212
+0: -0.00
+212
+1: 0.01
+0
+2: 0.01
+DONE
+x-gy: 0.0054
+x-axis: -27.2820
+y-axis: 0.0000
+Read:28 bytes
+76 bytes in FIFO
+5632
+0: 0.21
+5888
+1: 0.42
+6144
+2: 0.65
+Read:28 bytes
+62 bytes in FIFO
+6977
+0: 0.90
+51199
+1: 0.38
+50943
+2: -0.16
+Read:28 bytes
+54 bytes in FIFO
+46335
+0: -0.86
+54783
+1: -1.26
+55039
+2: -1.64
+Read:28 bytes
+40 bytes in FIFO
+63231
+0: -1.73
+6400
+1: -1.49
+6400
+2: -1.26
+Read:28 bytes
+26 bytes in FIFO
+50431
+0: -1.81
+2113
+1: -1.73
+50687
+2: -2.28
+DONE
+x-gy: -2.2773
+x-axis: -29.5593
+y-axis: 0.0000
+Read:28 bytes
+78 bytes in FIFO
+6912
+0: 0.25
+0
+1: 0.25
+0
+2: 0.25
+Read:28 bytes
+64 bytes in FIFO
+6465
+0: 0.49
+0
+1: 0.49
+0
+2: 0.49
+Read:28 bytes
+53 bytes in FIFO
+47871
+0: -0.16
+0
+1: -0.16
+0
+2: -0.16
+Read:28 bytes
+39 bytes in FIFO
+59391
+0: -0.38
+0
+1: -0.38
+0
+2: -0.38
+Read:28 bytes
+25 bytes in FIFO
+49919
+0: -0.96
+0
+1: -0.96
+0
+2: -0.96
+DONE
+x-gy: -0.9555
+x-axis: -30.5148
+y-axis: 0.0000
+Read:28 bytes
+77 bytes in FIFO
+65477
+0: -0.00
+65476
+1: -0.00
+0
+2: -0.00
+Read:28 bytes
+63 bytes in FIFO
+213
+0: 0.00
+215
+1: 0.01
+0
+2: 0.01
+Read:28 bytes
+52 bytes in FIFO
+65303
+0: 0.00
+65305
+1: -0.01
+0
+2: -0.01
+Read:28 bytes
+38 bytes in FIFO
+65476
+0: -0.01
+65478
+1: -0.01
+0
+2: -0.01
+Read:28 bytes
+24 bytes in FIFO
+216
+0: -0.00
+215
+1: 0.01
+0
+2: 0.01
+DONE
+x-gy: 0.0058
+x-axis: -30.5090
+y-axis: 0.0000
+Read:28 bytes
+76 bytes in FIFO
+6400
+0: 0.23
+6912
+1: 0.49
+6400
+2: 0.72
+Read:28 bytes
+62 bytes in FIFO
+3393
+0: 0.85
+50943
+1: 0.31
+50175
+2: -0.25
+Read:28 bytes
+54 bytes in FIFO
+45311
+0: -0.99
+55039
+1: -1.38
+55039
+2: -1.76
+Read:28 bytes
+40 bytes in FIFO
+54527
+0: -2.17
+5888
+1: -1.95
+6400
+2: -1.72
+Read:28 bytes
+26 bytes in FIFO
+50431
+0: -2.27
+5441
+1: -2.07
+50687
+2: -2.62
+DONE
+x-gy: -2.6153
+x-axis: -33.1243
+y-axis: 0.0000

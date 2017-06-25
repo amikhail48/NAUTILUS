@@ -1,0 +1,173 @@
++++ readlink -f /home/pi/RPi_Cam_Web_Interface/install.sh
+++ dirname /home/pi/RPi_Cam_Web_Interface/install.sh
++ cd /home/pi/RPi_Cam_Web_Interface
+++ dpkg-query -W '-f=${Status}' dialog
+++ grep -c 'ok installed'
++ '[' 1 -eq 0 ']'
++ color_red='tput setaf 1'
++ color_green='tput setaf 2'
++ color_reset='tput sgr0'
++ versionfile=./www/config.php
+++ cat ./www/config.php
+++ grep ''\''APP_VERSION'\'''
+++ cut -d \' -f4
++ version=v1.0
++ backtitle='Copyright (c) 2015, Bob Tidey. RPi Cam v1.0'
++ '[' '!' -e ./config.txt ']'
++ source ./config.txt
+++ rpicamdir=html
+++ webserver=apache
+++ webport=80
+++ user=
+++ webpasswd=
+++ autostart=no
++ rpicamdirold=html
++ '[' '!' h == '' ']'
++ rpicamdirold=/html
++ rm exitfile.txt
++ '[' 0 -eq 0 ']'
++ exec
++ read -r rpicamdir
++ dialog --separate-widget '
+' --title 'Configuration Options' --backtitle 'Copyright (c) 2015, Bob Tidey. RPi Cam v1.0' --form '' 0 0 0 'Cam subfolder:' 1 1 html 1 32 15 0 'Autostart:(yes/no)' 2 1 no 2 32 15 0 'Server:(apache/nginx/lighttpd)' 3 1 apache 3 32 15 0 Webport: 4 1 80 4 32 15 0 'User:(blank=nologin)' 5 1 '' 5 32 15 0 Password: 6 1 '' 6 32 15 0
++ read -r autostart
++ read -r webserver
++ read -r webport
++ read -r user
++ read -r webpasswd
++ '[' -n 80 ']'
++ sudo echo '#This is edited config file for main installer. Put any extra options in here.'
++ sudo echo 'rpicamdir="html"'
++ sudo echo 'webserver="apache"'
++ sudo echo 'webport="80"'
++ sudo echo 'user=""'
++ sudo echo 'webpasswd=""'
++ sudo echo 'autostart="no"'
++ sudo echo ''
++ exec
++ '[' -e exitfile.txt ']'
++ source ./config.txt
+++ rpicamdir=html
+++ webserver=apache
+++ webport=80
+++ user=
+++ webpasswd=
+++ autostart=no
++ '[' '!' h == '' ']'
++ rpicamdirEsc='\/html'
++ rpicamdir=/html
++ fn_stop
++ sudo killall raspimjpeg
++ sudo killall php
++ sudo killall motion
++ sudo mkdir -p /var/www/html/media
++ '[' '!' /html == /html ']'
++ sudo cp -r www/cam_get.php www/cam_pic_new.php www/cam_pic.php www/cmd_func.php www/cmd_pipe.php www/config.php www/convertCmd.txt www/Copyright.txt www/css www/delete.png www/fonts www/image.png www/index.php www/js www/loading.jpg www/macros www/min.php www/motion.php www/pilight_off www/pipan_off www/pipan.php www/preview.php www/raspizip.sh www/schedule.php www/servo_on www/start.txt www/status_mjpeg.php www/status_mjpeg.txt www/stop.txt www/timelapse.png www/unavailable.jpg www/updating.jpg www/uPresetsv2.html www/video.png /var/www/html/
++ '[' -e /var/www/html/index.html ']'
++ '[' apache == apache ']'
++ sudo apt-get install -y apache2 php5 php5-cli libapache2-mod-php5 gpac motion zip libav-tools gstreamer1.0-tools
++ fn_apache
++ aconf=etc/apache2/sites-available/raspicam.conf
++ cp etc/apache2/sites-available/raspicam.conf.1 etc/apache2/sites-available/raspicam.conf
++ '[' -e '\/etc/apache2/sites-available/raspicam.conf' ']'
++ '[' -e /etc/apache2/conf-available/other-vhosts-access-log.conf ']'
++ aotherlog=/etc/apache2/conf-available/other-vhosts-access-log.conf
+++ mktemp
++ tmpfile=/tmp/tmp.PsgvMI6E6Z
++ sudo awk '/NameVirtualHost \*:/{c+=1}{if(c==1){sub("NameVirtualHost \*:.*","NameVirtualHost *:80",$0)};print}' /etc/apache2/ports.conf
++ sudo mv /tmp/tmp.PsgvMI6E6Z /etc/apache2/ports.conf
++ sudo awk '/Listen/{c+=1}{if(c==1){sub("Listen.*","Listen 80",$0)};print}' /etc/apache2/ports.conf
++ sudo mv /tmp/tmp.PsgvMI6E6Z /etc/apache2/ports.conf
++ awk '/<VirtualHost \*:/{c+=1}{if(c==1){sub("<VirtualHost \*:.*","<VirtualHost *:80>",$0)};print}' etc/apache2/sites-available/raspicam.conf
++ sudo mv /tmp/tmp.PsgvMI6E6Z etc/apache2/sites-available/raspicam.conf
++ sudo sed -i 's/<Directory\ \/var\/www\/.*/<Directory\ \/var\/www\/html>/g' etc/apache2/sites-available/raspicam.conf
++ '[' '' == '' ']'
++ sudo sed -i 's/AllowOverride\ .*/AllowOverride None/g' etc/apache2/sites-available/raspicam.conf
++ sudo mv etc/apache2/sites-available/raspicam.conf /etc/apache2/sites-available/raspicam.conf
++ '[' '!' -e /etc/apache2/sites-enabled/raspicam.conf ']'
++ sudo sed -i 's/^CustomLog/#CustomLog/g' /etc/apache2/conf-available/other-vhosts-access-log.conf
++ sudo a2dissite 000-default.conf
++ sudo service apache2 restart
++ sudo sed -i 's/^www-data:x.*/www-data:x:33:33:www-data:\/var\/www:\/bin\/bash/g' /etc/passwd
++ '[' '!' -e /var/www/html/FIFO ']'
++ sudo chmod 666 /var/www/html/FIFO
++ '[' '!' -e /var/www/html/FIFO11 ']'
++ sudo chmod 666 /var/www/html/FIFO11
++ '[' '!' -e /var/www/html/myFIFO ']'
++ sudo mknod /var/www/html/myFIFO p
++ sudo chmod 666 /var/www/html/myFIFO
++ '[' '!' -e /var/www/html/FIFO1 ']'
++ sudo chmod 666 /var/www/html/FIFO1
++ sudo chmod 755 /var/www/html/raspizip.sh
++ '[' '!' -d /dev/shm/mjpeg ']'
++ '[' '!' -e /var/www/html/cam.jpg ']'
++ '[' -e /var/www/html/status_mjpeg.txt ']'
++ sudo rm /var/www/html/status_mjpeg.txt
++ '[' '!' -e /dev/shm/mjpeg/status_mjpeg.txt ']'
++ sudo chown www-data:www-data /dev/shm/mjpeg/status_mjpeg.txt
++ sudo ln -sf /dev/shm/mjpeg/status_mjpeg.txt /var/www/html/status_mjpeg.txt
++ sudo chown -R www-data:www-data /var/www/html
++ sudo cp etc/sudoers.d/RPI_Cam_Web_Interface /etc/sudoers.d/
++ sudo chmod 440 /etc/sudoers.d/RPI_Cam_Web_Interface
++ sudo cp -r bin/raspimjpeg /opt/vc/bin/
++ sudo chmod 755 /opt/vc/bin/raspimjpeg
++ '[' '!' -e /usr/bin/raspimjpeg ']'
++ sed -e 's/www/www\/html/' etc/raspimjpeg/raspimjpeg.1
+++ cat /proc/cmdline
+++ awk -v 'RS= ' -F= '/boardrev/ { print $2 }'
++ '[' 0xa22082 == 0x11 ']'
++ '[' -e /etc/raspimjpeg ']'
++ tput setaf 2
++ echo 'Your custom raspimjpg backed up at /etc/raspimjpeg.bak'
++ tput sgr0
++ sudo cp -r /etc/raspimjpeg /etc/raspimjpeg.bak
++ sudo cp -r etc/raspimjpeg/raspimjpeg /etc/
++ sudo chmod 644 /etc/raspimjpeg
++ '[' '!' -e /var/www/html/raspimjpeg ']'
++ sudo usermod -a -G video www-data
++ '[' -e /var/www/html/uconfig ']'
++ sudo chown www-data:www-data /var/www/html/uconfig
++ fn_motion
++ sudo sed -i 's/^; netcam_url.*/netcam_url/g' /etc/motion/motion.conf
++ sudo sed -i 's/^netcam_url.*/netcam_url http:\/\/localhost:80\/html\/cam_pic.php/g' /etc/motion/motion.conf
++ '[' '' == '' ']'
++ sudo sed -i 's/^netcam_userpass.*/; netcam_userpass value/g' /etc/motion/motion.conf
++ sudo sed -i 's/^; on_event_start.*/on_event_start/g' /etc/motion/motion.conf
++ sudo sed -i 's/^on_event_start.*/on_event_start echo -n \'\''1\'\'' >\/var\/www\/html\/FIFO1/g' /etc/motion/motion.conf
++ sudo sed -i 's/^; on_event_end.*/on_event_end/g' /etc/motion/motion.conf
++ sudo sed -i 's/^on_event_end.*/on_event_end echo -n \'\''0\'\'' >\/var\/www\/html\/FIFO1/g' /etc/motion/motion.conf
++ sudo sed -i 's/control_port.*/control_port 6642/g' /etc/motion/motion.conf
++ sudo sed -i 's/control_html_output.*/control_html_output off/g' /etc/motion/motion.conf
++ sudo sed -i 's/^output_pictures.*/output_pictures off/g' /etc/motion/motion.conf
++ sudo sed -i 's/^ffmpeg_output_movies on/ffmpeg_output_movies off/g' /etc/motion/motion.conf
++ sudo sed -i 's/^ffmpeg_cap_new on/ffmpeg_cap_new off/g' /etc/motion/motion.conf
++ sudo sed -i 's/^stream_port.*/stream_port 0/g' /etc/motion/motion.conf
++ sudo sed -i 's/^webcam_port.*/webcam_port 0/g' /etc/motion/motion.conf
++ sudo sed -i 's/^process_id_file/; process_id_file/g' /etc/motion/motion.conf
++ sudo sed -i 's/^videodevice/; videodevice/g' /etc/motion/motion.conf
++ sudo sed -i 's/^event_gap 60/event_gap 3/g' /etc/motion/motion.conf
++ sudo chown motion:www-data /etc/motion/motion.conf
++ sudo chmod 664 /etc/motion/motion.conf
++ fn_autostart
+++ mktemp
++ tmpfile=/tmp/tmp.hlQmWIaCVY
++ sudo sed /#START/,/#END/d /etc/rc.local
++ sudo mv /tmp/tmp.hlQmWIaCVY /etc/rc.local
++ sudo awk '!NF {if (++n <= 1) print; next}; {n=0;print}' /etc/rc.local
++ sudo mv /tmp/tmp.hlQmWIaCVY /etc/rc.local
++ '[' no == yes ']'
++ sudo chown root:root /etc/rc.local
++ sudo chmod 755 /etc/rc.local
++ '[' -e /var/www/html/uconfig ']'
++ sudo chown www-data:www-data /var/www/html/uconfig
++ '[' -e /var/www/html/schedule.php ']'
++ sudo rm /var/www/html/schedule.php
++ sudo sed -e 's/www/www\/html/g' www/schedule.php
++ sudo mv www/schedule.php.1 /var/www/html/schedule.php
++ sudo chown www-data:www-data /var/www/html/schedule.php
++ '[' 0 -eq 0 ']'
++ fn_reboot
++ dialog --title 'Start camera system now' --backtitle 'Copyright (c) 2015, Bob Tidey. RPi Cam v1.0' --yesno 'Start now?' 5 33
++ response=0
++ case $response in
++ ./start.sh

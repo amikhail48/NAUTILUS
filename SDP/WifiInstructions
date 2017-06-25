@@ -1,0 +1,10 @@
+add to /etc/wpa_supplicant/wpa_supplicant.conf
+network={
+	ssid="networkName"
+	psk="password"
+}
+
+run sudo wpa_cli reconfigure
+
+REMOVE THE NETWORK INFO BEFORE RESTARTING THE PI
+TRYING TO CONNECT TO THE NETWORK AND FAILING WILL CRASH THE PI ON BOOT

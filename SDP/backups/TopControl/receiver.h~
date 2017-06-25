@@ -1,0 +1,15 @@
+#ifndef RECEIVER_H
+#define RECEIVER_H
+#include <stdint.h>
+#include "FeedbackMotorController.h"
+//Physical Pin Numbers
+#define PIN_LTHRUST		19
+#define PIN_RTHRUST		16
+#define PIN_LTOP		26
+#define PIN_RTOP		20
+#define PIN_FTOP		21
+
+//struct motorControl_args *mArgs;
+void *receiveCmds(void *mArgs_priv);
+
+#endif
