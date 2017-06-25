@@ -1,0 +1,103 @@
++++ readlink -f ./remove.sh
+++ dirname /home/pi/RPi_Cam_Web_interface/remove.sh
++ cd /home/pi/RPi_Cam_Web_interface
++ color_red='tput setaf 1'
++ color_green='tput setaf 2'
++ color_reset='tput sgr0'
++ source ./config.txt
+++ rpicamdir=html
+++ webserver=nginx
+++ webport=80
+++ user=
+++ webpasswd=
+++ autostart=yes
++ fn_stop
++ sudo killall raspimjpeg
++ sudo killall php
++ sudo killall motion
++ sudo service apache2 stop
++ sudo service nginx stop
++ sudo service lighttpd stop
++ dialog --title 'Stop message' --infobox Stopped. 4 16
++ sleep 2
++ dialog --title 'Uninstall packages!' --backtitle '' --yesno 'Do You want uninstall webserver and php packages also?' 6 35
++ response=0
++ case $response in
++ package=('apache2' 'php5' 'libapache2-mod-php5' 'php5-cli' 'zip' 'nginx' 'lighttpd ''apache2-utils' 'php5-fpm' 'php5-common' 'php-apc' 'gpac motion' 'libav-tools')
++ for i in '"${package[@]}"'
+++ dpkg-query -W '-f=${Status}' apache2
+++ grep -c 'ok installed'
++ '[' 0 -eq 1 ']'
++ for i in '"${package[@]}"'
+++ dpkg-query -W '-f=${Status}' php5
+++ grep -c 'ok installed'
++ '[' 0 -eq 1 ']'
++ for i in '"${package[@]}"'
+++ dpkg-query -W '-f=${Status}' libapache2-mod-php5
+++ grep -c 'ok installed'
++ '[' 0 -eq 1 ']'
++ for i in '"${package[@]}"'
+++ dpkg-query -W '-f=${Status}' php5-cli
+++ grep -c 'ok installed'
++ '[' 1 -eq 1 ']'
++ sudo apt-get remove -y php5-cli
++ for i in '"${package[@]}"'
+++ dpkg-query -W '-f=${Status}' zip
+++ grep -c 'ok installed'
++ '[' 1 -eq 1 ']'
++ sudo apt-get remove -y zip
++ for i in '"${package[@]}"'
+++ dpkg-query -W '-f=${Status}' nginx
+++ grep -c 'ok installed'
++ '[' 1 -eq 1 ']'
++ sudo apt-get remove -y nginx
++ for i in '"${package[@]}"'
+++ dpkg-query -W '-f=${Status}' 'lighttpd apache2-utils'
+++ grep -c 'ok installed'
++ '[' 0 -eq 1 ']'
++ for i in '"${package[@]}"'
+++ dpkg-query -W '-f=${Status}' php5-fpm
+++ grep -c 'ok installed'
++ '[' 0 -eq 1 ']'
++ for i in '"${package[@]}"'
+++ dpkg-query -W '-f=${Status}' php5-common
+++ grep -c 'ok installed'
++ '[' 1 -eq 1 ']'
++ sudo apt-get remove -y php5-common
++ for i in '"${package[@]}"'
+++ dpkg-query -W '-f=${Status}' php-apc
+++ grep -c 'ok installed'
++ '[' 0 -eq 1 ']'
++ for i in '"${package[@]}"'
+++ dpkg-query -W '-f=${Status}' 'gpac motion'
+++ grep -c 'ok installed'
++ '[' 0 -eq 1 ']'
++ for i in '"${package[@]}"'
+++ dpkg-query -W '-f=${Status}' libav-tools
+++ grep -c 'ok installed'
++ '[' 1 -eq 1 ']'
++ sudo apt-get remove -y libav-tools
++ sudo apt-get autoremove -y
++ '[' '!' -d /root/media ']'
++ mkdir /root/media
++ '[' '!' html == '' ']'
++ sudo mv /var/www/html/media /root/media
++ sudo rm -r /var/www/html
++ sudo rm /etc/sudoers.d/RPI_Cam_Web_Interface
++ sudo rm /usr/bin/raspimjpeg
++ sudo rm /etc/raspimjpeg
++ fn_autostart_disable
+++ mktemp
++ tmpfile=/tmp/tmp.4abpXtNUxX
++ sudo sed /#START/,/#END/d /etc/rc.local
++ sudo mv /tmp/tmp.4abpXtNUxX /etc/rc.local
++ sudo awk '!NF {if (++n <= 1) print; next}; {n=0;print}' /etc/rc.local
++ sudo mv /tmp/tmp.4abpXtNUxX /etc/rc.local
++ sudo chown root:root /etc/rc.local
++ sudo chmod 755 /etc/rc.local
++ sudo chmod 664 ./config.txt
++ sudo mv etc/nginx/sites-available/default /etc/nginx/sites-available
++ sudo mv etc/apache2/sites-available/default.1 /etc/apache2/sites-available
+++ dpkg-query -W '-f=${Status}' apache2
+++ grep -c 'ok installed'
++ '[' 0 -eq 1 ']'

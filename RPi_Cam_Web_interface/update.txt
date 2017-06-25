@@ -1,0 +1,24 @@
++++ readlink -f ./update.sh
+++ dirname /home/pi/RPi_Cam_Web_interface/update.sh
++ cd /home/pi/RPi_Cam_Web_interface
++ color_red='tput setaf 1'
++ color_green='tput setaf 2'
++ color_reset='tput sgr0'
++ trap fn_abort 0
++ set -e
+++ git ls-remote -h origin master
+++ awk '{print $1}'
++ remote=c02dab42899749746f8e84b624dfad0c7f651f94
+++ git rev-parse HEAD
++ local=4b14e7664334fbf3d5c52fec33abe2b14b58a003
++ printf 'Local : %s\nRemote: %s\n' 4b14e7664334fbf3d5c52fec33abe2b14b58a003 c02dab42899749746f8e84b624dfad0c7f651f94
++ [[ 4b14e7664334fbf3d5c52fec33abe2b14b58a003 == c02dab42899749746f8e84b624dfad0c7f651f94 ]]
++ dialog --title 'Update message' --infobox 'Commits don'\''t match. We update.' 4 35
++ sleep 2
++ git fetch origin master
++ trap : 0
++ dialog --title 'Update message' --infobox 'Update finished.' 4 20
++ sleep 2
++ '[' 0 -eq 0 ']'
++ ./install.sh
++ :
